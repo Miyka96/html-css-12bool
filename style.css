@@ -1,5 +1,5 @@
 div[class*="col"]{
-    background-color: lavender;
+    background-color: rgb(202, 202, 255);
     padding: 20px 20px;
     border: 1px solid white;
     color: purple;
@@ -8,4 +8,13 @@ div[class*="col"]{
 div[class*="nested"]>div[class*="col"]{
     background-color: rgb(168, 168, 245);
     color: white;
+}
+h1{
+    font-size: 18px;
+}
+h2{
+    font-size: 15px;
+}
+#double{
+    height: 120px;
 }
