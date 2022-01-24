@@ -21,7 +21,6 @@ section{
     height: calc(100% / 5);
     display: flex;
     flex-wrap: wrap;
-    border: 1px dashed black;
 }
 .mini-row{
     width: 100%;
@@ -33,7 +32,6 @@ section{
 .col-1{
     flex-basis: calc(100% / 5 * 1);
     height: 100%;
-    border: dotted 1px red;
 }
 .mini-col{
     flex-basis: calc(100% / 10);
