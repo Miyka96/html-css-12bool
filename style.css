@@ -1,7 +1,11 @@
 div[class*="col"]{
     background-color: lavender;
-    padding: 10px 0;
+    padding: 20px 20px;
     border: 1px solid white;
     color: purple;
     text-align: center;
+}
+div[class*="nested"]>div[class*="col"]{
+    background-color: rgb(168, 168, 245);
+    color: white;
 }
