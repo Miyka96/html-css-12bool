@@ -7,8 +7,9 @@
 .container{
     width: 500px;
     height: 500px;
-    border: 1px solid black;
     margin-top: 50px;
+    background-color: rgb(224, 224, 224);
+    box-shadow: 5px 5px 20px;
 }
 
 section{
@@ -46,5 +47,5 @@ section{
     background-color: green;
 }
 .y{
-    background-color: yellow;
+    background-color: rgb(230, 230, 0);
 }
